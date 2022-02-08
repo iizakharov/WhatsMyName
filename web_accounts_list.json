@@ -4461,6 +4461,17 @@
           "known_accounts" : ["adam", "smith", "jones"],
           "category" : "social",
           "valid" : true
+        },
+        {
+          "name" : "mailRuBk",
+          "check_uri" : "https://my.mail.ru/bk/{account}",
+          "account_existence_code" : "200",
+          "account_existence_string" : " </title>",
+          "account_missing_string" : "Мой Мир@Mail.Ru: Мир не создан",
+          "account_missing_code" : "200",
+          "known_accounts" : ["master", "ivanova"],
+          "category" : "social",
+          "valid" : true
         }
   ]
 }
